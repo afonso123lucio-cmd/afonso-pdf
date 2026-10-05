@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Afonso PDF — Leitor de PDF para Windows</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f1117;
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #262a35;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #ff4040;
+    }
+
+    .versao {
+      color: #aaa;
+      font-size: 14px;
+    }
+
+    .hero {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero-conteudo {
+      max-width: 850px;
+    }
+
+    .hero h1 {
+      font-size: 58px;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 span {
+      color: #ff4040;
+    }
+
+    .hero p {
+      color: #b9bdc9;
+      font-size: 21px;
+      margin-bottom: 35px;
+    }
+
+    .download {
+      display: inline-block;
+      background: #ff4040;
+      color: white;
+      text-decoration: none;
+      padding: 17px 35px;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .download:hover {
+      background: #e33131;
+      transform: translateY(-2px);
+    }
+
+    .info {
+      margin-top: 15px;
+      color: #777;
+      font-size: 13px;
+    }
+
+    .recursos {
+      padding: 80px 8%;
+      background: #151820;
+    }
+
+    .recursos h2 {
+      text-align: center;
+      font-size: 34px;
+      margin-bottom: 45px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e222c;
+      padding: 28px;
+      border-radius: 14px;
+      border: 1px solid #2d323e;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    .card p {
+      color: #aeb3bf;
+      font-size: 15px;
+    }
+
+    .sobre {
+      max-width: 800px;
+      margin: auto;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .sobre h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .sobre p {
+      color: #aaa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #666;
+      border-top: 1px solid #262a35;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 40px;
+      }
+
+      .hero p {
+        font-size: 18px;
+      }
+
+      header {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">Afonso <span>PDF</span></div>
+  <div class="versao">Versão 1.0</div>
+</header>
+
+
+<section class="hero">
+
+  <div class="hero-conteudo">
+
+    <h1>Seu PDF. <span>Do seu jeito.</span></h1>
+
+    <p>
+      Afonso PDF é um leitor e gerenciador de documentos PDF
+      desenvolvido para Windows. Simples, rápido e gratuito.
+    </p>
+
+    <a
+      class="download"
+      href="https://github.com/afonso123lucio-cmd/afonso-pdf/releases/latest"
+    >
+      ⬇ Baixar Afonso PDF
+    </a>
+
+    <div class="info">
+      Gratuito • Windows • Versão 1.0
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="recursos">
+
+  <h2>O que você pode fazer</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>📄 Ler PDFs</h3>
+      <p>
+        Abra documentos PDF e navegue entre centenas de páginas.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>🔎 Zoom e navegação</h3>
+      <p>
+        Amplie documentos e navegue facilmente pelas páginas.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>✏️ Anotações</h3>
+      <p>
+        Faça anotações para organizar melhor sua leitura.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>⚡ Arquivos grandes</h3>
+      <p>
+        Desenvolvido para trabalhar também com documentos de muitas páginas.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class="sobre">
+
+  <h2>Conheça o Afonso PDF</h2>
+
+  <p>
+    O Afonso PDF nasceu como um projeto independente para criar
+    uma alternativa simples e prática para leitura e gerenciamento
+    de documentos PDF no Windows.
+  </p>
+
+</section>
+
+
+<footer>
+  © 2026 Afonso PDF — Projeto independente.
+</footer>
+
+</body>
+</html>
